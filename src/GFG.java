@@ -107,9 +107,11 @@ public class GFG
         Graph graph = new Graph(V);
         addColor(graph);
         //Find how to add sequence to edge adding
+
         //Find how to Sort in non-conflicting order
         int k = graph.colorArray.size() + addColor(graph); // Chromatic Number
 
         printGraph(graph);
     }
 }
+//changed
